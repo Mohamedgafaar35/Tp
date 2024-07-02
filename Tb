@@ -57,3 +57,4 @@
     for register in computer.registers.values():
         print(f"{register.name}: {register.value}")
 ```
+# O((V + E) log V)
